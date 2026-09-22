@@ -10,6 +10,6 @@ public class BelegTest {
        Beleg b2 = new Beleg();
        Beleg b3 = new Beleg();
        
-       System.out.println("Belegnummer von b2 (später abgefragt): " + b2.getBelegnummer());
+       System.out.println("Belegnummer von b2 (spaeter abgefragt): " + b2.getBelegnummer());
     }
 }
