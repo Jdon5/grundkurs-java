@@ -1,7 +1,9 @@
 package kapitel06;
 
 /**
- * Halbieren
+ * Aufgabe 12: Eine double-Zahl soll solange halbiert werden, bis
+ * ein bestimmter Wert erreicht oder unterschritten wurde. Rekursiv
+ * geloest.
  */
 public class Halbieren {
 
