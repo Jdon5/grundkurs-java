@@ -1,9 +1,14 @@
 package kapitel06;
 
 /**
- * Aufgabe 15: Mit Hilfe eines Arrays soll ein Ringpuffer implementiert werden
- * 
+ * Aufgabe 15: Implementiert mit Hilfe eines Arrays einen Ringpuffer
+ * fester Laenge, in den ganze Zahlen geschrieben werden koennen.
+ * Ist der Puffer voll, wird der jeweils aelteste Eintrag
+ * ueberschrieben. Ein Index gibt an, an welcher Stelle die naechste
+ * Schreiboperation erfolgt, und wird nach Erreichen der oberen
+ * Grenze wieder auf 0 gesetzt.
  */
+
 public class Ringpuffer {
     private int[] ringpuffer = new int[5];
     private int index;
@@ -18,7 +23,7 @@ public class Ringpuffer {
 
         ringpuffer[index++] = e;
     }
-    
+
     // Ausgabe des Puffers
     public void display(){
         for(int i: ringpuffer){

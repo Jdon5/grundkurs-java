@@ -1,7 +1,9 @@
 package kapitel06;
 
 /**
- * RingpufferTest
+ * Testet die Klasse Ringpuffer: Befuellung, Ueberschreiben des
+ * aeltesten Eintrags sowie mehrfaches Ueberschreiben ueber
+ * mehrere Runden hinweg.
  */
 public class RingpufferTest {
 
