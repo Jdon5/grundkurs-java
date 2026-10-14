@@ -5,7 +5,7 @@ import queue.*;
  * enter, leave, isEmpty und displayQueue nach dem FIFO-Prinzip,
  * inklusive leerer Schlange und erneutem Befuellen nach dem Leeren.
  */
-public class WartenschlangeTest {
+public class WarteschlangeTest {
 
     public static void main(String[] args) {
         Warteschlange queue = new Warteschlange();
