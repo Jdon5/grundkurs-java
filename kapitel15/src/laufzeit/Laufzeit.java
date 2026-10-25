@@ -29,4 +29,6 @@ public class Laufzeit {
         instant2 = Instant.now();
         System.out.println("Laufzeit Long: " + Duration.between(instant1, instant2).toMillis() + " ms");
     }
+
+    
 }
