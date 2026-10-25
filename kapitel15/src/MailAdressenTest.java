@@ -17,7 +17,7 @@ public class MailAdressenTest {
         mailAdressen.display();
 
         // Zugriff ueber Namen
-        // erwartet -> jesse2@gmail.com (aus der Datei)
+        // erwartet -> jesse12@gmail.com (aus der Datei)
         System.out.println("jesse12 aus der Datei: " + mailAdressen.getAdresse("jesse12"));
         // erwartet -> max@example.com (ueber hinzufuegen)
         System.out.println("max: " + mailAdressen.getAdresse("max"));
