@@ -1,6 +1,5 @@
 package quoter.demo.api;
 import java.util.ServiceLoader;
-
 /**
  * Aufgabe 2: Service-Interface, das einen Text in Anfuehrungszeichen
  * einkleidet. Die Implementierung wird ueber den ServiceLoader
