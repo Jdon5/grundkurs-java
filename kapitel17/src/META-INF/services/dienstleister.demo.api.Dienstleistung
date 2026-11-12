@@ -1,0 +1,3 @@
+# Provider fuer dienstleister.demo.api.Dienstleistung
+dienstleister.demo.impl.ITProjektLeitung
+dienstleister.demo.impl.ITSupport
